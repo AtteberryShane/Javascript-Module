@@ -1,5 +1,5 @@
 // Control Flow and Conditional Statements in  Javascript
-// Using if-else statements
+// Using If-Else Statements
 let userRole = "admin";
 let accessLevel;
 
@@ -13,7 +13,7 @@ if (userRole === "admin") {
 
 console.log("Access Level:", accessLevel);
 
-// If-else statements using boolean variables
+// If-Else Statements using Boolean Variables
 let isLogginIn = true;
 let userMessage;
 
@@ -48,3 +48,9 @@ switch (userType) {
 }
 
 console.log("User Category:", userCategory);
+
+// Ternary Operator Excercise
+let isAuthenticated = true;
+let authenticationStatus = isAuthenticated ? "Authenticated" : "Not Authenticated";
+
+console.log("Authentication Status:", authenticationStatus);
